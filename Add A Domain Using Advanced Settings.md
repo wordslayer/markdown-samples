@@ -2,6 +2,8 @@
 
 ### **Overview**
 This guide shows you how to add a domain to your DNS Made Easy account using advanced settings and features.
+
+>[!NOTE]
 >You can add up to 1,000 domains at once. Advanced settings will be applied to each domain being added and will be identical for every domain. For any domain that requires further customization, you can alter the settings individually once the domains have been imported into the DNS Made Easy system.
 
 ### **Prerequisites**
@@ -26,7 +28,8 @@ Once in the Managed DNS portal, click on the **Add Domains** button on the right
 
 In the  **Add Domains**  window, type or copy/paste the domain(s) you are adding into the  **Domain Names field**. Domains can be entered in list format or separated by commas, as shown in the examples below.
 
-> Internationalized domain names (IDNs) should be entered using  ==[Punycode](http://www.charset.org/punycode.php).== For example, if your domain name was mañana.com, you would add the domain in DNS Made Easy as “xn--maana-pta.com” (without the quotes). 
+> [!IMPORTANT]
+> Internationalized domain names (IDNs) should be entered using [Punycode](http://www.charset.org/punycode.php). For example, if your domain name was mañana.com, you would add the domain in DNS Made Easy as “xn--maana-pta.com” (without the quotes). 
 
 ![enter image description here](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/47113286578/original/KIaRLBX2iWGdLkfOAtailWHc1KDT8PBlrQ.png?1639512317)
 
