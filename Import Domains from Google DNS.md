@@ -7,6 +7,7 @@ Constellix offers API integration with major providers such as Google DNS, AWS, 
 
 ----------
 
+> [!Note]
 > Several steps in this tutorial will take place in Google DNS. We will touch on these steps, but for detailed information, refer to  Google’s documentation. Keep in mind that if Google changes anything in its interface, it may not be immediately reflected here.
 
 ----------
@@ -15,11 +16,9 @@ Constellix offers API integration with major providers such as Google DNS, AWS, 
 
 Importing a domain using API credentials allows you to transfer your domain information quickly and efficiently. This is useful for when you are switching providers or want to set up a secondary DNS configuration with Constellix.
 
-----------
 
 > Constellix does not support traditional Secondary DNS. Instead, secondary configurations are Primary/Primary and are achieved through API. This setup will provide your domain with two authoritative nameservers that are always active.
 
-----------
 
 ### **Prerequisites**
 
@@ -65,6 +64,7 @@ In the  **Edit permissions**  window, click on the  **Role dropdown**  option to
 
 ----------
 
+> [!TIP]
 > For more detailed information about Roles and Permissions, please refer to  [Google’s documentation](https://cloud.google.com/iam/docs/creating-custom-roles?_ga=2.152496381.-536856063.1628856919&_gac=1.157871816.1628856949.CjwKCAjwsNiIBhBdEiwAJK4khkNOPNkqFxNBJGUAqFsEPwW_WLDDt_zqwAQC-_d6qvvPpcWJyJoCVhoCeeQQAvD_BwE).
 
 ----------
@@ -87,6 +87,7 @@ Once added, you will see the members and their roles listed when managing your r
 
   
 
+> [!TIP]
 > If you need help with Google API options, visit their  [API documentation](https://cloud.google.com/apis/docs/overview?visit_id=637644649459957549-4166835483&rd=1).
 
 ----------
@@ -124,6 +125,7 @@ In the Key area, click on the white  **Add Key**  button and select  **Create ne
 
 ----------
 
+>[!NOTE]
 >If you have already created a JSON key, skip to **step 13.**  
 
 ----------
@@ -144,7 +146,8 @@ Your key should now be showing as  **Active** under Status in the Key dashboard.
 
 ----------
 
-> **Important**: Make sure your API has been enabled in your Google Cloud account before moving on to the next step.
+> [!Important]
+> Make sure your API has been enabled in your Google Cloud account **before** moving on to the next step.
 
 ----------
 
@@ -184,6 +187,7 @@ You will now be taken to the  **Import Domain page**  in Constellix. You will se
 
 ----------
 
+> [!NOTE]
 > We do not have a domain managed by Google Cloud, so the screenshot below is just for example purposes of what page you should be on once you have entered your JSON values.
 
 ----------
