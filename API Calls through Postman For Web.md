@@ -37,9 +37,8 @@ In a new tab or window, open the  [Constellix API Documentation](https://api-doc
 
 In the  **Run in…**  window, choose where you want Postman to run:
 
-Postman for Web (Supported only for Chrome, Firefox, Edge)
-
-Postman for Windows (Mac or Linux, depending on your machine)
+- Postman for Web (Supported only for Chrome, Firefox, Edge)
+- Postman for Windows (Mac or Linux, depending on your machine)
 
 In this tutorial, we will be using  **Postman for Web**  on  **Chrome**.
 
@@ -57,6 +56,7 @@ In a new tab or window,  **retrieve your API credentials**  by accessing the Con
 
 ----------
 
+> [!IMPORTANT]
 > If you have not yet generated an API key, visit our  [How to Generate an API Key](https://support.constellix.com/support/solutions/articles/47001200127-how-to-generate-an-api-key)  tutorial.
 
 ----------
@@ -83,6 +83,7 @@ To create a new environment, press the  **Environment** button located in the le
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/47115549227/original/sydKj1Oh9ztPbs2xQ8oh5JrJfgBeryng5g.png?1640698850)  
 
+> [!TIP]
 >**Optional** (but recommended): Rename your environment by clicking the horizontal  **ellipsis** to expand options, and then choose  **Rename** (for this tutorial, we renamed the environment Constellix API).
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/47115549396/original/Q9D-K5wnHqqlMStnIEycRZWIYHOVJQKBLg.png?1640698900)  
@@ -119,7 +120,8 @@ After clicking Get All Domains, the necessary URL for the API call  **auto-popul
 
 ----------
 
->**Tip**: If you get an error after clicking Send, be sure you actually saved your keys in Postman (see step 8).
+> [!TIP]
+> If you get an error after clicking Send, be sure you actually saved your keys in Postman (see step 8).
 
 ----------
 
